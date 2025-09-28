@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conqueror's Blade Units Guide</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header class="header">
+    <a href="index.html">
+      <img src="./img/ti2.png" alt="Conqueror's Blade Unit Guide" class="logo">
+    </a>
+    <div class="header-right">
+      <nav>
+        <a href="units-guide.html">병종</a> <!-- #units에서 units-guide.html로 변경 -->
+        <a href="#doctrines">군혼</a>
+      </nav>
+      <input type="text" placeholder="검색..." class="search">
+      <button id="toggle-focus" class="toggle-btn">포커스 중지</button>
+    </div>
+  </header>
+
+  <div class="container">
+    <section class="new-units">
+      <h2>New units</h2>
+      <div class="focus-container">
+        <a href="units-guide.html" class="item" data-index="0"> <!-- 병종 가이드 페이지로 이동 -->
+          <img src="./img/드라군.jpg" alt="Reitar Pistoleers">
+          <div class="text">
+            <h4>Reitar Pistoleers</h4>
+            <p>신규유닛</p>
+          </div>
+        </a>
+        <a href="units-guide.html" class="item" data-index="1">
+          <img src="./img/스와인즈.jpg" alt="Swinefeathers">
+          <div class="text">
+            <h4>Swinefeathers</h4>
+            <p>신규유닛</p>
+          </div>
+        </a>
+        <a href="units-guide.html" class="item" data-index="2">
+          <img src="./img/화포.jpg" alt="Lionroar Crew">
+          <div class="text">
+            <h4>Lionroar Crew</h4>
+            <p>신규유닛</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section id="units" class="grid-section">
+      <h3>병종 가이드</h3>
+      <div class="grid">
+        <div class="card">
+          <a href="units-guide.html"> <!-- 병종 가이드 페이지로 이동 -->
+            <img src="./img/드라군.jpg" alt="병사 이름">
+            <div class="card-text">
+              <h4>병사 이름</h4>
+              <p>병사 설명</p>
+            </div>
+          </a>
+        </div>
+        <div class="card">
+          <a href="units-guide.html">
+            <img src="./img/스와인즈.jpg" alt="병사 이름">
+            <div class="card-text">
+              <h4>병사 이름</h4>
+              <p>병사 설명</p>
+            </div>
+          </a>
+        </div>
+        <!-- PDF 반복처럼 더 추가 -->
+      </div>
+    </section>
+
+    <section id="doctrines" class="grid-section">
+      <h3>군혼 가이드</h3>
+      <div class="grid">
+        <div class="card">
+          <img src="./img/화포.jpg" alt="병사 이름">
+          <div class="card-text">
+            <h4>병사 이름</h4>
+            <p>병사 설명</p>
+          </div>
+        </div>
+        <!-- 반복 추가 -->
+      </div>
+    </section>
+
+    <section id="skilltrees" class="grid-section">
+      <h3>스킬트리 가이드</h3>
+      <div class="grid">
+        <div class="card">
+          <img src="./img/드라군.jpg" alt="병사 이름">
+          <div class="card-text">
+            <h4>병사 이름</h4>
+            <p>병사 설명</p>
+          </div>
+        </div>
+        <!-- 반복 추가 -->
+      </div>
+    </section>
+
+    <footer class="footer">
+      &copy; 2025 Conqueror's Blade Fan Guide
+    </footer>
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conqueror's Blade Units Guide</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header class="header">
+    <a href="index.html">
+      <img src="./img/ti2.png" alt="Conqueror's Blade Unit Guide" class="logo">
+    </a>
+    <div class="header-right">
+      <nav>
+        <a href="index.html">홈</a>
+        <a href="units-guide.html">병종</a>
+        <a href="index.html#doctrines">군혼</a>
+      </nav>
+      <input type="text" placeholder="검색..." class="search">
+    </div>
+  </header>
+
+  <div class="container">
+    <section id="units-guide" class="units-grid-section">
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">모두</button>
+        <button class="filter-btn" data-filter="3star">3성</button>
+        <button class="filter-btn" data-filter="4star">4성</button>
+        <button class="filter-btn" data-filter="5star">5성</button>
+        <button class="filter-btn" data-filter="season">시즌</button>
+        <button class="filter-btn" data-filter="potential">잠재력</button>
+      </div>
+      <div>
+        <h3>현재 모든 병종이 있는 것은 아니며, 아마도 업데이트 진행중입니다.</h3>
+      </div>
+      <div class="units-grid">
+        <!-- JS에서 동적으로 카드 생성됨 (빈 상태) -->
+      </div>
+    </section>
+
+    <footer class="footer">
+      &copy; 2025 Conqueror's Blade Fan Guide
+    </footer>
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
