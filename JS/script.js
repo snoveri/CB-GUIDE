@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => { //이건 뭣따 쓰는겨
   // 포커스 기능: 메인 페이지 전용 (기존 코드 유지)
   const focusContainer = document.querySelector('.focus-container');
   if (focusContainer) {
