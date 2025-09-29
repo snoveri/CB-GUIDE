@@ -60,15 +60,35 @@ document.addEventListener('DOMContentLoaded', () => { //이건 뭣따 쓰는겨
   const unitsData = [
 
     // 3성 부분
-    { category: '3star', name: '3성 병사 1', desc: ['S20의 3성 기마병', '기마위에서 총을 쏘며 칼을 휘두르는 기마병', '성능은'], img: './img/드라군.jpg' },
+    { category: '3star season',
+      name: '하카펠', 
+      desc: [
+        '총과 칼을 쓰는 드라군', 
+        '기마위에서 총을 쏘며 칼을 휘두르는 기마병. \n 총이 매우 강력하긴 하나, 타이밍 잡기 등에 어려움이 있으며\n 1번 스킬을 2번 사용 이후 현자타임이 있다.'
+      ], 
+      img: './img/하카펠.png',
+      skillImg: './img/하카펠-스킬.png' },
     { category: '3star', name: '3성 병사 2', desc: ['기본 3성'], img: 'https://placehold.co/200x300?text=3star1' },
     { category: '3star', name: '3성 병사 3', desc: ['기본 3성'], img: 'https://placehold.co/200x300?text=3star1' },
     { category: '3star season', name: '3성 시즌 병사', desc: ['시즌 3성'], img: 'https://placehold.co/200x300?text=3star-season' },
     { category: '3star season', name: '3성 시즌 병사', desc: ['시즌 3성'], img: 'https://placehold.co/200x300?text=3star-season' },
 
     // 4성 부분
-    { category: '4star', name: '4성 병사 1', desc: ['기본 4성'], img: 'https://placehold.co/200x300?text=4star1' },
-    { category: '4star', name: '4성 병사 1', desc: ['기본 4성'], img: 'https://placehold.co/200x300?text=4star1' },
+    { category: '4star season',
+      name: '4성 병사 1', 
+      desc: [
+        '유동적인 바리케이드 설치',
+        '창을 바닥에 꽂아다가 바리케이드를 설치함'], 
+      img: './img/스와인즈.png', 
+      skillImg: './img/스와인즈-스킬.png'
+    },
+    { category: '4star potential', 
+      name: '양양 투창', 
+      desc: [
+        '존나 쌘 투창병',
+        '진짜 존나 쌘 양양 투창'], 
+      img: './img/양양.png',
+      skillImg: './img/양양-스킬.png' },
     { category: '4star', name: '4성 병사 1', desc: ['기본 4성'], img: 'https://placehold.co/200x300?text=4star1' },
     { category: '4star', name: '4성 병사 1', desc: ['기본 4성'], img: 'https://placehold.co/200x300?text=4star1' },
     { category: '4star potential', name: '4성 잠재력 병사', desc: ['잠재력 4성'], img: 'https://placehold.co/200x300?text=4star-potential' },
@@ -76,7 +96,11 @@ document.addEventListener('DOMContentLoaded', () => { //이건 뭣따 쓰는겨
     { category: '4star potential', name: '4성 잠재력 병사', desc: ['잠재력 4성'], img: 'https://placehold.co/200x300?text=4star-potential' },
 
     //5성 부분
-    { category: '5star', name: '5성 병사 1', desc: ['기본 5성'], img: 'https://placehold.co/200x300?text=5star1' },
+    { category: '5star season', 
+      name: '웅사 화포', 
+      desc: ['기본 5성', '생각보다 막 녹이진 못해도 깡패'], 
+      img: './img/대포.png',
+      skillImg: './img/대포-스킬.png' },
     { category: '5star', name: '5성 병사 1', desc: ['기본 5성'], img: 'https://placehold.co/200x300?text=5star1' },
     { category: '5star', name: '5성 병사 1', desc: ['기본 5성'], img: 'https://placehold.co/200x300?text=5star1' },
     { category: '5star', name: '5성 병사 1', desc: ['기본 5성'], img: 'https://placehold.co/200x300?text=5star1' },
@@ -102,7 +126,7 @@ document.addEventListener('DOMContentLoaded', () => { //이건 뭣따 쓰는겨
           <img src="${unit.img}" alt="${unit.name}">
           <div class="card-text">
             <h4>${unit.name}</h4>
-            <p>${unit.desc}</p>
+            <p>${unit.desc[0]}</p>
           </div>
         </a>
       `;

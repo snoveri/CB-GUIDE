@@ -375,7 +375,7 @@ a:visited {
 
 .detail-img {
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
   border-radius: 24px;
 }
@@ -405,6 +405,7 @@ a:visited {
 .detail-block p {
   margin: 0;
   color: #ccc;
+  white-space: pre-line; /* \n 유지 + 자동 줄바꿈 */
 }
 
 .skill-img {
