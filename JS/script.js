@@ -68,14 +68,11 @@ document.addEventListener('DOMContentLoaded', () => { //이건 뭣따 쓰는겨
       ], 
       img: './img/하카펠.png',
       skillImg: './img/하카펠-스킬.png' },
-    { category: '3star', name: '3성 병사 2', desc: ['기본 3성'], img: 'https://placehold.co/200x300?text=3star1' },
-    { category: '3star', name: '3성 병사 3', desc: ['기본 3성'], img: 'https://placehold.co/200x300?text=3star1' },
-    { category: '3star season', name: '3성 시즌 병사', desc: ['시즌 3성'], img: 'https://placehold.co/200x300?text=3star-season' },
-    { category: '3star season', name: '3성 시즌 병사', desc: ['시즌 3성'], img: 'https://placehold.co/200x300?text=3star-season' },
+
 
     // 4성 부분
     { category: '4star season',
-      name: '4성 병사 1', 
+      name: '스와인즈', 
       desc: [
         '유동적인 바리케이드 설치',
         '창을 바닥에 꽂아다가 바리케이드를 설치함'], 
@@ -89,24 +86,20 @@ document.addEventListener('DOMContentLoaded', () => { //이건 뭣따 쓰는겨
         '진짜 존나 쌘 양양 투창'], 
       img: './img/양양.png',
       skillImg: './img/양양-스킬.png' },
-    { category: '4star', name: '4성 병사 1', desc: ['기본 4성'], img: 'https://placehold.co/200x300?text=4star1' },
-    { category: '4star', name: '4성 병사 1', desc: ['기본 4성'], img: 'https://placehold.co/200x300?text=4star1' },
-    { category: '4star potential', name: '4성 잠재력 병사', desc: ['잠재력 4성'], img: 'https://placehold.co/200x300?text=4star-potential' },
-    { category: '4star potential', name: '4성 잠재력 병사', desc: ['잠재력 4성'], img: 'https://placehold.co/200x300?text=4star-potential' },
-    { category: '4star potential', name: '4성 잠재력 병사', desc: ['잠재력 4성'], img: 'https://placehold.co/200x300?text=4star-potential' },
 
     //5성 부분
     { category: '5star season', 
       name: '웅사 화포', 
-      desc: ['기본 5성', '생각보다 막 녹이진 못해도 깡패'], 
+      desc: [
+        '기본 5성', 
+        '생각보다 막 녹이진 못해도 깡패'], 
       img: './img/대포.png',
       skillImg: './img/대포-스킬.png' },
-    { category: '5star', name: '5성 병사 1', desc: ['기본 5성'], img: 'https://placehold.co/200x300?text=5star1' },
-    { category: '5star', name: '5성 병사 1', desc: ['기본 5성'], img: 'https://placehold.co/200x300?text=5star1' },
-    { category: '5star', name: '5성 병사 1', desc: ['기본 5성'], img: 'https://placehold.co/200x300?text=5star1' },
-    { category: '5star', name: '5성 병사 1', desc: ['기본 5성'], img: 'https://placehold.co/200x300?text=5star1' },
-    { category: '5star', name: '5성 병사 1', desc: ['기본 5성'], img: 'https://placehold.co/200x300?text=5star1' },
-    { category: '5star', name: '5성 병사 1', desc: ['기본 5성'], img: 'https://placehold.co/200x300?text=5star1' },
+    { category: '5star potential',
+      name: '윙드후~싸리아',
+      desc: ['존나 쌘 창기마'], 
+      img: './img/윙드후사르.png', 
+      skillImg:'./img/윙드후사르-스킬.png'}
 
 
 
